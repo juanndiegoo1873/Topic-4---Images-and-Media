@@ -1,0 +1,34 @@
+
+/* Basic layout and styling */
+body {
+  font-family: Arial, sans-serif;  /* Clean, readable font */
+  padding: 20px;                   /* breathing room around content */
+  background-color: #f9f9f9;       /* Light background for a soft look */
+  color: #333;                     /* Dark gray text for better contrast */
+}
+
+/* Style for figures */
+figure {
+  margin-bottom: 20px;  /* Adds space between figures so there is space between them */
+}
+
+/* Default styling for all images */
+img {
+  border: 1px solid #ccc;   /* Light border for contrast to the imgage */
+  padding: 5px;             /* Keeps image from touching the border */
+  max-width: 100%;          /* Makes sure images don’t overflow on smaller screens */
+  height: auto;             /* Maintains aspect ratio */
+}
+
+/* Custom bullet styling using a PNG image */
+.custom-bullets {
+  list-style-image: url("images/arrow.png");  
+  padding-left: 30px;                             /* Adds space so bullets don't overlap on the text */
+}
+
+/* for placing text next to an image, makes it cleaner */
+.image-text {
+  display: flex;             /
+  align-items: center;       /* Vertically aligns items */
+  gap: 20px;                 /* Adds spacing between the image and text */
+}
